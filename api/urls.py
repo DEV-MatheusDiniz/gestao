@@ -4,10 +4,12 @@ from django.urls import path, include
 from rest_framework import routers
 
 from api.usuario.views.usuario import UsuariosViewSet
+from api.tarefa.views.tarefa import TarefaViewSet
 
 
 router = routers.DefaultRouter()
-router.register(r'usuarios', UsuariosViewSet)
+router.register('usuarios', UsuariosViewSet)
+router.register('tarefas', TarefaViewSet)
 
 
 urlpatterns = [
