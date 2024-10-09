@@ -13,6 +13,9 @@ poetry install
 # Ativar ambiente virtual
 poetry shell
 
+# Criar tabelas do banco de dados
+poetry run python manage.py migrate
+
 # Iniciar api
-python manage.py runserver
+poetry run python manage.py runserver
 ```
