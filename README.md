@@ -1,9 +1,11 @@
 # Gestão API
 
+Api para registro de tarefas e horas trabalhadas
+
 
 ## Requisitos
 - Python 3.13
-- Poetry 1.8.2
+- Poetry 1.8.3
 
 ## Uso
 ```bash

@@ -12,12 +12,12 @@ class TarefaSerializer(serializers.ModelSerializer):
         dt_cadastro = datetime.strftime(instance.dt_cadastro, "%d/%m/%Y %H:%M:%S")
         dt_alteracao = datetime.strftime(instance.dt_alteracao, "%d/%m/%Y %H:%M:%S")
 
-        responsavel = UsuarioSerializer(instance.responsavel).data
+        fk_responsavel = UsuarioSerializer(instance.fk_responsavel).data
 
         tarefa = {
             "id": instance.id,
             "ds_descricao": instance.ds_descricao,
-            "responsavel": responsavel,
+            "fk_responsavel": fk_responsavel,
             "dt_cadastro": dt_cadastro,
             "dt_alteracao": dt_alteracao,
         }
