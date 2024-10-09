@@ -21,3 +21,8 @@ poetry run python manage.py migrate
 # Iniciar api
 poetry run python manage.py runserver
 ```
+
+## Banco de dados
+É usado o sqlite
+
+![Estrutura do banco](docs/estrutura_banco.png)
