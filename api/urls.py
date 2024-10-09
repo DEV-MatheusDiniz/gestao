@@ -5,11 +5,13 @@ from rest_framework import routers
 
 from api.usuario.views.usuario import UsuariosViewSet
 from api.tarefa.views.tarefa import TarefaViewSet
+from api.atividade.views.atividade import AtividadeViewSet
 
 
 router = routers.DefaultRouter()
 router.register('usuarios', UsuariosViewSet)
 router.register('tarefas', TarefaViewSet)
+router.register('atividades', AtividadeViewSet)
 
 
 urlpatterns = [
