@@ -26,6 +26,12 @@ poetry run python manage.py migrate
 poetry run python manage.py runserver
 ```
 
+## Uso via Docker
+```bash
+# Iniciar api
+docker compose up
+```
+
 ## Banco de dados
 É usado o sqlite
 
