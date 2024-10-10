@@ -2,6 +2,10 @@
 
 Api para registro de tarefas e horas trabalhadas
 
+## Sobre o sistema
+- Usuários: podem ser vinculados como responsável nas tarefas.
+- Tarefas: tem a ideia de uma solicitação, para ser executada.
+- Atividades: Tem o objetivo de registrar as horas trabalhadas de cada usuário em cima de uma tarefa.
 
 ## Requisitos
 - Python 3.13
