@@ -1,5 +1,8 @@
 # Gestão API
 
+## Acesse
+- http://localhost:8000
+
 Api para registro de tarefas e horas trabalhadas
 
 ## Sobre o sistema
