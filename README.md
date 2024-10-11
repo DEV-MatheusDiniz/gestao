@@ -13,6 +13,8 @@ Api para registro de tarefas e horas trabalhadas
 ## Requisitos
 - Python 3.13
 - Poetry 1.8.3
+- Docker 24.0.7
+- Docker Compose 2.29.4
 
 ## Uso
 ```bash
